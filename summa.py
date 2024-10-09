@@ -1,7 +1,7 @@
 input_data = open('input.txt', 'r') # открываем для чтения (литера 'r') файл и кладем его в переменую
 data = input_data.read() # читаем другую переменую содержимое всего файла
 
-for i in range(1 , n):
+for i in range(1 , 10^4):
 print(i, end="; ")
 
 output_data = open('output.txt', 'r')
